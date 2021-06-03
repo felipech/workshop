@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 import java.time.Duration;
 
 @RestController
-@RequestMapping("/api/books")
+@RequestMapping("/reactive/api/books")
 public class BookController {
     private final BookService bookService;
 
